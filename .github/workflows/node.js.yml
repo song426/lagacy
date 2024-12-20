@@ -71,3 +71,5 @@ jobs:
           else
             echo "requirements.txt not found. Skipping pip installation."
           fi
+          
+      - run: pm2 restart BackendAPI
